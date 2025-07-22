@@ -1,0 +1,228 @@
+/* 🔵 General Layout */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🔵 Header */
+header {
+    background: linear-gradient(to right, #0062E6, #33AeFF);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* 🔵 Footer */
+footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* 🔵 Flash messages */
+.flash.success { color: green; }
+.flash.danger { color: red; }
+.flash.info { color: blue; }
+
+/* =================== */
+/* 🔵 Login Form */
+.login-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* =================== */
+/* 🔵 Task Box */
+.tasks-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tasks-form input[type="text"] {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.tasks-form .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tasks-form .btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-clear {
+    width: 100%;
+    background-color: #dc3545;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tasks-table th,
+.tasks-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+/* 👇 Silver background for heading row */
+.tasks-table thead tr {
+    background-color: #f2f2f2;
+}
+
+/* 👇 Column divider lines for heading row */
+.tasks-table th {
+    border-right: 1px solid #ccc;
+}
+
+.tasks-table th:last-child {
+    border-right: none;
+}
+
+.tasks-table th:nth-child(2),
+.tasks-table td:nth-child(2) {
+    text-align: left;
+}
+
+.tasks-table th:nth-child(3),
+.tasks-table td:nth-child(3) {
+    text-align: center;
+}
+
+.tasks-table th:nth-child(4),
+.tasks-table td:nth-child(4) {
+    text-align: right;
+}
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.badge.pending {
+    background-color: #ffc107;
+    color: white;
+}
+
+.badge.working {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.badge.done {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-small {
+    font-size: 13px;
+    padding: 6px 14px;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background-color: #495057;
+}
