@@ -1,29 +1,42 @@
-# ✅ Flask Task Manager App
+# 🧠 Flask Task Manager
 
-A clean and professional task management web application built using **Flask**, ideal for beginners and intermediate learners. You can add tasks, update their status, and clear them with a simple UI.
+A futuristic and minimalist Task Manager web application built with Flask — helping you stay organized, productive, and focused.
 
-![Task Manager Screenshot](screenshot.png) <!-- Optional image. Replace with actual screenshot path -->
-
----
-
-## 🔥 Features
-
-- ➕ Add new tasks
-- ✅ Change task status: `Pending → Working → Done`
-- ❌ Clear all tasks
-- 💡 Clean & responsive UI using **HTML + CSS**
-- 🧠 Designed with industry standards for learning and portfolio use
+![Banner](https://img.shields.io/badge/Flask-Task_Manager-blue?style=for-the-badge)  
+> ✨ Create, update, and manage your tasks seamlessly — with style.
 
 ---
 
-## 📂 Project Structure
+## 🚀 Features
 
+- ✅ Add new tasks instantly  
+- 🔁 Toggle task status (`Pending → Working → Done`)  
+- ❌ Clear all tasks in one click  
+- 🎨 Fully responsive and modern UI  
+- 🧼 Clean codebase with modular Flask structure  
 
 ---
 
-## 🚀 Setup Instructions (Local Development)
+## 📸 Screenshots
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/flask-task-manager.git
-cd flask-task-manager
+| Task Page | Status Badge | Clean UI |
+|-----------|--------------|----------|
+| ![Screenshot](https://via.placeholder.com/300x150?text=Task+Page) | ![Badge](https://via.placeholder.com/150x50?text=Status+Badges) | ![UI](https://via.placeholder.com/300x150?text=Modern+UI) |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend**: Flask, Jinja2  
+- **Frontend**: HTML5, CSS3  
+- **Database**: SQLite (via SQLAlchemy)  
+- **Deployment Ready**: PythonAnywhere, Render, Heroku
+
+---
+
+## 🔧 Project Setup
+
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/Kripanshu-Anuragi/flask-task-manager.git
+   cd flask-task-manager
